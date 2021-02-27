@@ -23,7 +23,7 @@ const CollectionsOverviewContainer = () => (
   <Query query={GET_COLLECTIONS}>
     {
       ({ loading, error, data }) => {
-        if (loading) return <Spinner></Spinner>;
+        if (loading) return <Spinner />;
         return <CollectionsOverview collections={data.collections}/>
       }
     }
