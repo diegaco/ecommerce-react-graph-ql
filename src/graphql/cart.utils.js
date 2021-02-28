@@ -37,3 +37,14 @@ export const getCartItemsCount = cartItems =>
     0
   )
 ;
+
+export const clearItem = (cartItems, item) =>
+  cartItems.filter(cartItem => cartItem.id !== item.id);
+
+export const getCartTotal = cartItems =>
+  cartItems.reduce(
+    (total, cartItem) =>
+      total + (cartItem.price * cartItem.quantity),
+    0
+  )
+;

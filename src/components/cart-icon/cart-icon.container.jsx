@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mutation, Query,  graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
 import * as compose from 'lodash.flowright'; // compose was remove from react-apollo, instead use this originally by loadash
 import { gql } from 'apollo-boost';
 import CartIcon from './cart-icon.component';

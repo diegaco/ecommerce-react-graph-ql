@@ -2,15 +2,27 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+// const config = {
+//   apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
+//   authDomain: 'crwn-db.firebaseapp.com',
+//   databaseURL: 'https://crwn-db.firebaseio.com',
+//   projectId: 'crwn-db',
+//   storageBucket: 'crwn-db.appspot.com',
+//   messagingSenderId: '850995411664',
+//   appId: '1:850995411664:web:7ddc01d597846f65'
+// };
+
+// Your web app's Firebase configuration
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyA7jU4fHkvmLoN1fMp8Db7xafQPKY_Pzus",
+  authDomain: "ecommerce-react-v2.firebaseapp.com",
+  databaseURL: "https://ecommerce-react-v2.firebaseio.com",
+  projectId: "ecommerce-react-v2",
+  storageBucket: "ecommerce-react-v2.appspot.com",
+  messagingSenderId: "1045851205674",
+  appId: "1:1045851205674:web:8fcea5a52fcd996fd21353"
 };
+
 
 firebase.initializeApp(config);
 
